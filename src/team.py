@@ -10,3 +10,7 @@ class Team:
 
     def has_player(self, player):
         return player in self.players
+
+    def play_game(self, result):
+        if result == True:
+            self.points += 3
